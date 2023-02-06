@@ -1,5 +1,5 @@
 
-html {
+* {
   box-sizing: border-box;
 }
 
@@ -23,9 +23,11 @@ section1 {
   color: black;
   background-color: brown;
   float: right;
-  border: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
   padding: 5px 10px;
-  margin-bottom: 10px;
+  margin-right: -20px;
+  margin-top: -20px;
 }
 
 section2 {
@@ -33,9 +35,11 @@ section2 {
   color: black;
   background-color: beige;
   float: right;
-  border: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
   padding: 5px 10px;
-  margin-bottom: 10px;
+  margin-right: -20px;
+  margin-top: -20px;
 }
 
 section3 {
@@ -43,30 +47,35 @@ section3 {
   color: black;
   background-color: salmon;
   float: right;
-  border: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
   padding: 5px 10px;
-}
+  margin-right: -20px;
+  margin-top: -20px;
+ }
 
 div #chicken {
   padding: 20px 20px 20px 20px;
   background-color: gray;
+  border: 1px solid black;
 
 }
 
 div #beef {
   padding: 20px 20px 20px 20px;
   background-color: gray;
+  border: 1px solid black;
 }
 
 div #sushi {
-  margin-left: 5px;
+  background-color: gray;
   padding: 20px 20px 20px 20px;
+  border: 1px solid black;
 }
 
 
 
 .content {
-  border: 1px solid black;
   padding: 10px 10px 10px 10px;
   margin: 10px;
   
@@ -74,6 +83,9 @@ div #sushi {
 
 .content p {
   clear: right;
+  margin-top: 30px;
+  float: center;
+  text-align: center;
   
 }
 
@@ -138,7 +150,7 @@ div #sushi {
 
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+ .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
   }
 
@@ -188,6 +200,13 @@ div #sushi {
 
   .col-md-12 {
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .col-md-12 {
+    width: 100%;
+    float: left;
   }
 }
 
