@@ -1,3 +1,115 @@
-h1 {
-	color: green;
+
+* {
+	box-sizing: border-box;
 }
+
+
+.text-center{
+	font-size: 300%;
+}
+body {
+	background-color: beige;
+
+}
+
+
+
+section {
+	position: relative;
+	
+}
+
+p {
+	position: relative;
+	clear: right;
+}
+
+div {
+	position: relative;
+	margin: auto;
+}
+
+#Chicken {
+	background-color: gray ;
+	text-align: center;
+	padding: auto;
+	margin: auto;
+}
+
+#Beef {
+	background-color: gray;
+	text-align: center;
+	padding: auto;
+	margin: auto;
+
+}
+
+#Sushi {
+	background-color: gray;
+	text-align: center;
+	position: inherit;
+	padding: auto;
+	margin: auto;
+	
+	
+}
+
+.content {
+	overflow: auto;
+}
+
+
+.Chicken {
+	font-size: 150%;
+}
+
+.Beef {
+	font-size: 150%;
+}
+
+.Sushi {
+	font-size: 150%;
+
+}
+
+.container{
+	text-align: left;
+}
+
+#header-nav {
+	background-color: brown;
+	border-radius: 0;
+	border: 0;
+
+}
+
+.navbar-header {
+	color: black;
+	text-align: left;
+	font-size: 50%;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: 1px;
+	overflow: hidden;
+}
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+  
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) 
+  
+  
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) 
