@@ -24,23 +24,49 @@ p {
 	clear: right;
 }
 
+#Chickentitle{
+	font-size: 30px;
+	
+}
+
+#Beeftitle{
+	font-size: 30px;
+}
+
+#Sushititle{
+	font-size: 30px;
+}
+
 div {
 	position: relative;
 	margin: auto;
 }
 
+h2 {
+	font-family: fantasy;
+	text-align: left;
+
+    
+}
+
+
+
 #Chicken {
 	background-color: gray ;
 	text-align: center;
 	padding: auto;
-	margin: auto;
+	margin-bottom: 20px;
+	height: 700px;
+	
 }
 
 #Beef {
 	background-color: gray;
 	text-align: center;
 	padding: auto;
-	margin: auto;
+	margin-bottom: 20px;
+	height: 700px;
+	
 
 }
 
@@ -50,6 +76,7 @@ div {
 	position: inherit;
 	padding: auto;
 	margin: auto;
+	height: 700px;
 	
 	
 }
@@ -80,6 +107,10 @@ div {
 	background-color: brown;
 	border-radius: 0;
 	border: 0;
+	clear: right;
+
+
+	
 
 }
 
@@ -89,27 +120,36 @@ div {
 	font-size: 50%;
 }
 
-.sr-only {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	padding: 0;
-	margin: 1px;
-	overflow: hidden;
+
+
+.navbar-brand h1 {
+  font-family: fantasy;
+  line-height: .75;
+  text-align: center;
+  color: black;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+
+#nav-list > li {
+    font-family: fantasy;
+    color: gray;
+	background-color: brown;
+	font-size: 0.5em;
+
 }
 
 
 
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-}
-  
 
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) 
-  
-  
 
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) 
+
